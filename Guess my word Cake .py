@@ -1,21 +1,15 @@
-# improt string
-# alphabet = string.ascii_lowercase
+def double_value(n):
+    return n * 2
 
-# for lettter in letters_quessed:
-#     alphabet = alphabet.replace(letter,'')
+result = apply_to_each(test_list, double_value)
+print(result)
+def subtract_three(n):
+    return n - 3
 
-# return alphabet
+result = apply_to_each(test_list, subtract_three)
+print(result)
+def square(n):
+    return n ** 2
 
-alphabet = list(string.ascii_lowercase)
-for letterr in alphabet:
-    if letter in letter_quesssed:
-        alphabet.remove(letter)
-
-return ''.join(alphabet)
-                for lettter in alphabet
-                       if letter not in letters_quessed
-
-# Opion4
-# output_string = ''
-# for everyletter in alphabet
-
+result = apply_to_each(test_list, square)
+print(result)
