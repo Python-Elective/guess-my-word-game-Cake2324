@@ -59,7 +59,7 @@ def get_available_letters(letters_guessed):
             alphabet.remove(letter)
  
     return ' '.join(alphabet)
-   
+# Testcases   
 print(get_available_letters('apple'))
 print(get_available_letters(''))    
 print (get_available_letters(['p', 'r', 'f', 'd', 'k', 'h', 'c', 'a', 'i', 'y', 'w', 'b']))
